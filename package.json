@@ -1,8 +1,8 @@
 {
     "name": "primengsnippets",
-    "displayName": "PrimeNG Snippets",
-    "description": "snippet for Primeng!",
-    "version": "1.0.3",
+    "displayName": "PrimeNG 7 Snippets",
+    "description": "Snippets for Primeng!",
+    "version": "1.0.4",
     "icon": "icon.png",
     "publisher": "yigitfindikli",
     "repository": {
