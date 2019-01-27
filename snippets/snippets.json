@@ -248,7 +248,7 @@
 			"\t<ng-template pTemplate=\"body\" let-${5:yourRowVaraible} let-${6:yourColumnArrayVaraible}=\"columns\">",
 			"\t\t<tr>",
 			"\t\t\t<td *ngFor=\"let ${7:yourColumnVaraible} of ${6:yourColumnArrayVaraible}\">",
-			"\t\t\t{{let-${5:yourRowVaraible}[${7:yourColumnVaraible}.field]}}",
+			"\t\t\t{{${5:yourRowVaraible}[${7:yourColumnVaraible}.field]}}",
 			"\t\t\t</td>",
 			"\t\t</tr>",
 			"\t</ng-template>",
