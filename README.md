@@ -18,4 +18,4 @@ You can use other components with same syntax.
 ## For Contributing
 https://github.com/yigitfindikli/primengsnippets
 
-ENJOY!
+Enjoy!
