@@ -1,0 +1,627 @@
+{
+	"AutoComplete":{
+		"prefix": "p-autoComplete",
+		"body": [
+			"<p-autoComplete [(ngModel)]=\"${1:text}\" [suggestions]=\"${2:results}\" (completeMethod)=\"${3:yourSearchFunction}(\\$event)\"></p-autoComplete>"
+		],
+		"description": "Basic p-autoComplete"
+	},
+	"Calendar":{
+		"prefix": "p-calendar",
+		"body": "<p-calendar [(ngModel)]=\"${1:date}\"></p-calendar>",
+		"description": "Basic p-calendar"
+	},
+	"Checkbox": {
+		"prefix": "p-checkbox",
+		"body": [
+			"<p-checkbox name=\"${1:yourName}\" value=\"${2:YourValue}\" label=\"${3:YourLabel}\" [(ngModel)]=\"${4:selectedValue}\" inputId=\"${5:id}\"></p-checkbox>"
+		],
+		"description": "Basic Checkbox"
+	},
+	"Chips": {
+		"prefix": "p-chips",
+		"body": [
+			"<p-chips [(ngModel)]=\"${1:values}\" ></p-chips>"
+		],
+		"description": "Basic chips"
+	},
+	"ColorPicker": {
+		"prefix": "p-colorPicker",
+		"body": [
+			"<p-colorPicker [(ngModel)]=\"${1:value}\" [inline]=\"${2:isInline}\"></p-colorPicker>"
+		],
+		"description": "Basic ColorPicker"
+	},
+	"Dropdown": {
+		"prefix": "p-dropdown",
+		"body": [
+			"<p-dropdown [options]=\"${1:options}\" [(ngModel)]=\"${2:value}\" placeholder=\"${3:placeholder}\" optionLabel=\"${4:optionLabel}\" [showClear]=\"${5:bool}\"></p-dropdown>"
+		],
+		"description": "Basic Dropdown"
+	},
+	"Editor": {
+		"prefix": "p-editor",
+		"body": [
+			"<p-editor [(ngModel)]=\"${1:value}\" [style]=\"{'height':'${2:height}'}\"></p-editor>"
+		],
+		"description": "Basic Editor"
+	},
+	"KeyFilter": {
+		"prefix": "pKeyFilter",
+		"body": [
+			"<input type=\"${1:type}\" pInputText pKeyFilter=\"${2:typeOfFilter}\" placeholder=\"${3:placeholder}\">"
+		],
+		"description": "Basic KeyFilter"
+	},
+	"InputSwitch": {
+		"prefix": "p-inputSwitch",
+		"body": [
+			"<p-inputSwitch [(ngModel)]=\"${1:value}\"></p-inputSwitch>"
+		],
+		"description": "Basic Input Switch"
+	},
+	"Textarea": {
+		"prefix": "pInputTextarea",
+		"body": [
+			"<textarea rows=\"${1:rows}\" cols=\"${2:cols}\" pInputTextarea></textarea>"
+		],
+		"description": "Basic Textarea"
+	},
+	"ListBox": {
+		"prefix": "p-listbox",
+		"body": [
+			"<p-listbox [options]=\"${1:options}\" [(ngModel)]=\"${2:value}\" optionLabel=\"${3:optionLabel}\"></p-listbox>"
+		],
+		"description": "Basic List Box"
+	},
+	"InputMask": {
+		"prefix": "p-inputMask",
+		"body": [
+			"<p-inputMask mask=\"${1:mask}\" [(ngModel)]=\"${2:value}\" placeholder=\"${3:placeholder}\"></p-inputMask>"
+		],
+		"description": "Basic Input Mask"
+	},
+	"Multiselect": {
+		"prefix": "p-multiselect",
+		"body": [
+			"<p-multiSelect [options]=\"${1:options{\" [(ngModel)]=\"${2:selectedOptions}\" [panelStyle]=\"{minWidth:'${3:minWidth}'}\"></p-multiSelect>"
+		],
+		"description": "Basic Multiselect"
+	},
+	"RadioButton": {
+		"prefix": "p-radioButton",
+		"body": [
+			"<p-radioButton name=\"${1:name}\" value=\"${2:value}\" label=\"${3:label}\" [(ngModel)]=\"${4:yourValue}\" inputId=\"${5:inputId}\">"
+		],
+		"description": "Basic Radio Button"
+	},
+	"Rating": {
+		"prefix": "p-rating",
+		"body": [
+			"<p-rating [(ngModel)]=\"${1:value}\"></p-rating>"
+		],
+		"description": "Basic Rating"
+	},
+	"Slider": {
+		"prefix": "p-slider",
+		"body": [
+			"<p-slider [(ngModel)]=\"1:value\" [style]=\"{'width':'${2:width}'}\"></p-slider>"
+		],
+		"description": "Basic Slider"
+	},
+	"Spinner": {
+		"prefix": "p-spinner",
+		"body": [
+			"<p-spinner size=\"${1:size}\" [(ngModel)]=\"${2:value}\"></p-spinner>"
+		],
+		"description": "Basic Spinner"
+	},
+	"SelecButton": {
+		"prefix": "p-selectButton",
+		"body": [
+			"<p-selectButton [options]=\"${1:options}\" [(ngModel)]=\"${2:selectedValue}\"></p-selectButton>"
+		],
+		"description": "Basic Select Button"
+	},
+	"ToggleButton": {
+		"prefix": "p-toggleButton",
+		"body": [
+			"<p-toggleButton [(ngModel)]=\"${1:value}\" [style]=\"{'width':'${2:width}'}\"></p-toggleButton>"
+		],
+		"description": "Basic Toggle Button"
+	},
+	"TriStateCheckbox": {
+		"prefix": "p-triStateCheckbox",
+		"body": [
+			"<p-triStateCheckbox [(ngModel)]=\"${1:value}\" label=\"${2:label}\"></p-triStateCheckbox>"
+		],
+		"description": "Basic TriStateCheckbox"
+	},
+	"Button": {
+		"prefix": "p-button",
+		"body": [
+			"<p-button icon=\"pi pi-${1:iconName}\" label=\"${2:label}\"></p-button>"
+		],
+		"description": "Basic Button"
+	},
+	"Split Button": {
+		"prefix": "p-splitButton",
+		"body": [
+			"<p-splitButton label=\"${1:label}\" icon=\"pi pi-${2:iconName}\" [model]=\"${3:yourItems}\"></p-splitButton>"
+		],
+		"description": "Basic SplitButton"
+	},
+	"Carousel": {
+		"prefix": "p-carousel",
+		"body": [
+			"<p-carousel headerText=\"${1:headerText}\" [value]=\"${2:yourDataArray}\">",
+			"\t<ng-template let-${3:yourVaraibleName} pTemplate=\"item\">",
+			"\t\tyour template",
+			"\t</ng-template>",
+			"</p-carousel>"
+		],
+		"description": "Basic Carousel"
+	},
+	"Data View": {
+		"prefix": "p-dataview",
+		"body": [
+			"<p-dataView #dv [value]=\"${1:yourDataArray}\" [paginator]=\"${2:bool}\" [rows]=\"${3:rowCount}\" paginatorPosition=\"${4:position}\" filterBy=\"${5:filterBy}\"",
+			"[sortField]=\"${6:sortField}\" [sortOrder]=\"$7:{sortOrder}\">",
+			"\t<p-header>",
+			"\t\tyour header template",
+			"\t</p-header>",
+			"\t<ng-template let-${8:yourVaraibleName} pTemplate=\"listItem\">",
+			"\t\tyour item template",
+			"\t</ng-template>",
+			"\t<ng-template let-${8:yourVaraibleName} pTemplate=\"gridItem\">",
+			"\t\tyour gridItem template",
+			"\t</ng-template>",
+			"</p-dataView>"
+		],
+		"description": "Basic DataView"
+	},
+	"Full Calendar": {
+		"prefix": "p-fullCalendar",
+		"body": [
+			"<p-fullCalendar [events]=\"${1:yourEvents}\" [options]=\"${2:yourOptions}\"></p-fullCalendar>"
+		],
+		"description": "Basic FullcCalendar"
+	},
+	"OrganizationChart": {
+		"prefix": "p-organizationChart",
+		"body": [
+			"<p-organizationChart [value]=\"${1:dataArray}\" selectionMode=\"${2:mode}\" [(selection)]=\"${3:selectedDatas}\" styleClass=\"${4:yourStyleClass}\">",
+			"\t<ng-template let-node pTemplate=\"person\">",
+			"\t\tyour person template",
+			"\t</ng-template>",
+			"\t<ng-template let-node pTemplate=\"department\">",
+			"\t\tyour department template",
+			"\t</ng-template>",
+			"</p-organizationChart>"
+		],
+		"description": "Custom OrganizationChart"
+	},
+	"Order List": {
+		"prefix": "p-orderList",
+		"body": [
+			"<p-orderList [value]=\"${1:dataArray}\" [listStyle]=\"{'height':'${2:height}'}\" header=\"${3:header}\" filterBy=\"${4:filterBy}\" filterPlaceholder=\"${5:placeHolder}\" dragdrop=\"${6:bool}\">",
+			"\t<ng-template let-car pTemplate=\"item\">",
+			"\t\tyour item template",
+			"\t</ng-template>",
+			"</p-orderList>"
+		],
+		"description": "Basic Order List"
+	},
+	"Paginator": {
+		"prefix": "p-paginator",
+		"body": [
+			"<p-paginator [rows]=\"${1:rowCount}\" [totalRecords]=\"${2:totalRecords}\" [rowsPerPageOptions]=\"[10,20,30]\"></p-paginator>"
+		],
+		"description": "Basic Paginator"
+	},
+	"Pick List": {
+		"prefix": "p-picklist",
+		"body": [
+			"<p-pickList [source]=\"${1:sourceDataArray}\" [target]=\"${2:targetDataArray}\" sourceHeader=\"${3:sourceHeader}\" targetHeader=\"${4:targetHeader}\" [responsive]=\"${5:bool}\" filterBy=\"${6:filterBy}\"", 
+			"[dragdrop]=\"${7:bool}\" sourceFilterPlaceholder=\"${8:sourcePlaceHolder}\" targetFilterPlaceholder=\"${9:targetPlaceHolder}\" [sourceStyle]=\"{'height':'${10:sourceHeight}'}\" [targetStyle]=\"{'height':'${11:targetHeight}'}\">",
+			"\t<ng-template let-${12:varaibleNaem} pTemplate=\"item\">",
+			"\t\tyour item template",
+			"\t</ng-template>",
+			"</p-pickList>"
+		],
+		"description": "PickList"
+	},
+	"Table": {
+		"prefix": "p-table",
+		"body": [
+			"<p-table [columns]=\"${1:yourColumnArray}\" [value]=\"${2:yourDataArray}\">",
+			"\t<ng-template pTemplate=\"caption\">",
+			"\t\tyour caption template",
+			"</ng-template>",
+			"\t<ng-template pTemplate=\"header\" let-${3:yourColumnArrayVaraible}>",
+			"\t\t<tr>",
+			"\t\t\t<th *ngFor=\"let ${4:yourColumnVaraible} of ${3:yourColumnArrayVaraible}\">",
+			"\t\t\t\t{{${4:yourColumnVaraible}.header}}",
+			"\t\t\t</th>",
+			"\t\t</tr>",
+			"\t</ng-template>",
+			"\t<ng-template pTemplate=\"body\" let-${5:yourRowVaraible} let-${6:yourColumnArrayVaraible}=\"columns\">",
+			"\t\t<tr>",
+			"\t\t\t<td *ngFor=\"let ${7:yourColumnVaraible} of ${6:yourColumnArrayVaraible}\">",
+			"\t\t\t{{let-${5:yourRowVaraible}[${7:yourColumnVaraible}.field]}}",
+			"\t\t\t</td>",
+			"\t\t</tr>",
+			"\t</ng-template>",
+			"\t<ng-template pTemplate=\"footer\" let-${8:yourColumnArrayVaraible}>",
+			"\t\t<tr>",
+			"\t\t\t<td *ngFor=\"let ${9:yourColumnVaraible} of ${8:yourColumnArrayVaraible}\">",
+			"\t\t\t\t{{${9:yourColumnVaraible}.header}}",
+			"\t\t\t</td>",
+			"\t\t</tr>",
+			"\t</ng-template>",
+			"\t<ng-template pTemplate=\"summary\">",
+			"\t\tyour summary template",
+			"\t</ng-template>",
+			"</p-table>"
+		],
+		"description": "Section Table"
+	},
+	"Tree": {
+		"prefix": "p-tree",
+		"body": [
+			"<p-tree [value]=\"${1:yourNodeArray}\"></p-tree>"
+		],
+		"description": "Basic Tree"
+	},
+	"TreeTable": {
+		"prefix": "p-treeTable",
+		"body": [
+			"<p-treeTable [value]=\"${1:yourNodeArray}\" [columns]=\"${2:yourColumnArray}\">",
+			"\t<ng-template pTemplate=\"caption\">",
+			"\t\tyour caption template",
+			"</ng-template>",
+			"\t<ng-template pTemplate=\"header\" let-${3:yourColumnArrayVaraible}>",
+			"\t\t<tr>",
+			"\t\t\t<th *ngFor=\"let ${4:yourColumnVaraible} of ${3:yourColumnArrayVaraible}\">",
+			"\t\t\t\t{{${4:yourColumnVaraible}.header}}",
+			"\t\t\t</th>",
+			"\t\t</tr>",
+			"\t</ng-template>",
+			"\t<ng-template pTemplate=\"body\" let-${5:yourRowNodeVaraible} let-${6:yourRowDataVaraible}=\"rowData\" let-${7:yourColumnArrayVaraible}=\"columns\">",
+			"\t\t<tr>",
+			"\t\t\t<td *ngFor=\"let ${8:yourColumnVaraible} of ${7:yourColumnArrayVaraible}; let i = index\">",
+			"\t\t\t\t<p-treeTableToggler [rowNode]=\"${5:yourRowNodeVaraible}\" *ngIf=\"i == 0\"></p-treeTableToggler>",
+			"\t\t\t\t{{${6:yourRowDataVaraible}[${8:yourColumnVaraible}.field]}}",
+			"\t\t\t</td>",
+			"\t\t</tr>",
+			"\t<ng-template pTemplate=\"footer\" let-${9:yourColumnArrayVaraible}>",
+			"\t\t<tr>",
+			"\t\t\t<td *ngFor=\"let ${10:yourColumnVaraible} of ${9:yourColumnArrayVaraible}\">",
+			"\t\t\t\t{{${10:yourColumnVaraible}.header}}",
+			"\t\t\t</td>",
+			"\t\t</tr>",
+			"\t</ng-template>",
+			"\t<ng-template pTemplate=\"summary\">",
+			"\t\tyour summary template",
+			"\t</ng-template>",
+			"</p-treeTable>"
+		],
+		"description": "Section TreeTable"
+	},
+	"VirtualScroller": {
+		"prefix": "p-virtualScroller",
+		"body": [
+			"<p-virtualScroller [value]=\"${1:yourDataArray}\" scrollHeight=\"${2:scrollHeight}\" [itemSize]=\"${3:itemSize}\">",
+			"\t<p-header>",
+			"\t\tyour header template",
+			"\t</p-header>",
+			"\t<ng-template let-${4:yourVaraibleName} pTemplate=\"item\" let-i=\"index\">",
+			"\t\tyour item template",
+			"\t</ng-template>",
+			"</p-virtualScroller>"
+		],
+		"description": "Preloader Virtual Scroller"
+	},
+	"Accordion": {
+		"prefix": "p-accordion",
+		"body": [
+			"<p-accordion>",
+			"\t<p-accordionTab header=\"${2:header}\" [selected]=\"${1:bool}\">",
+			"\t\tyour content",
+			"\t</p-accordionTab>",
+			"\t<p-accordionTab header=\"${3:header}\">",
+			"\t\tyour content",
+			"\t</p-accordionTab>",
+			"\t<p-accordionTab header=\"${4:header}\">",
+			"\t\tyour content",
+			"\t</p-accordionTab>",
+			"</p-accordion>"
+		],
+		"description": "Basic Accordion"
+	},
+	"Card": {
+		"prefix": "p-card",
+		"body": [
+			"<p-card header=\"${1:header}\" subheader=\"${2:subheader}\" [style]=\"{width: '${3:width}'}\" styleClass=\"${4:styleClass}\">",
+			"\t<p-header>",
+			"\t\tyour header template",
+			"\t</p-header>",
+			"\tyour card template",
+			"\t<p-footer>",
+			"\t\tyour footer template",
+			"\t</p-footer>",
+			"</p-card>"
+		],
+		"description": "Advenced Card"
+	},
+	"Fieldset": {
+		"prefix": "p-fieldset",
+		"body": [
+			"<p-fieldset legend=\"${1:legend}\" [toggleable]=\"${2:bool}\">",
+			"\t your content",
+			"</p-fieldset>"
+		],
+		"description": "Basic Fieldset"
+	},
+	"Panel": {
+		"prefix": "p-panel",
+		"body": [
+			"<p-panel>",
+			"\t<p-header>",
+			"\t\tyour header template",
+			"\t</p-header>",
+			"\tyour content",
+			"\t<p-footer>",
+			"\t\tyour footer template",
+			"\t</p-footer>",
+			"</p-panel>"
+		],
+		"description": "Custom Panel"
+	},
+	"ScrollPanel": {
+		"prefix": "p-scrollPanel",
+		"body": [
+			"<p-scrollPanel [style]=\"{width: '${1:width}', height: '${2:height}'}\" styleClass=\"${3:styleClass}\">",
+			"\tyour content",
+			"</p-scrollPanel>"
+		],
+		"description": "Basic SrollPanel"
+	},
+	"Tab View": {
+		"prefix": "p-tabView",
+		"body": [
+			"<p-tabView>",
+			"\t<p-tabPanel header=\"${1:header}\">",
+			"\t\tyour content",
+			"\t</p-tabPanel>",
+			"\t<p-tabPanel header=\"${2:header}\">",
+			"\t\tyour content",
+			"\t</p-tabPanel>",
+			"\t<p-tabPanel header=\"${3:header}\">",
+			"\t\tyour content",
+			"\t</p-tabPanel>",
+			"</p-tabView>"
+		],
+		"description": "Basic Tab View"
+	},
+	"Toolbar": {
+		"prefix": "p-toolbar",
+		"body": [
+			"<p-toolbar>",
+			"\t",
+			"<p-toolbar>"
+		],
+		"description": "description"
+	},
+	"Confirm Dialog": {
+		"prefix": "p-confirmDialog",
+		"body": [
+			"<p-confirmDialog [style]=\"{width: '${1:width}'}\"></p-confirmDialog>",
+			"<button type=\"button\" (click)=\"${2:yourConfirmFunction}()\" pButton icon=\"${3:icon}\" label=\"${4:label}\"></button>"
+		],
+		"description": "Basic Confirm Dialog"
+	},
+	"Dialog": {
+		"prefix": "p-dialog",
+		"body": [
+			"<p-dialog header=\"${1:header}\" [(visible)]=\"${2:visible}\" [modal]=\"${3:bool}\" [responsive]=\"${4:bool}\" [style]=\"{width: '${5:width}', minWidth: '${6:minWidth}'}\" [minY]=\"${7:minY}\"",
+			"[maximizable]=\"${8:bool}\" [baseZIndex]=\"${9:baseZIndex}\">",
+			"\tcontent",
+			"\t<p-footer>",
+			"\t\tyour footer template",
+			"\t</p-footer>",
+			"</p-dialog>",
+			"<button type=\"button\" ((click)=\"${10:yourConfirmFunction}()\" pButton icon=\"${11:icon}\" label=\"${12:label}\"></button>"
+		],
+		"description": "Custom Dialog"
+	},
+	"Ligthbox": {
+		"prefix": "p-lightbox",
+		"body": [
+			"<p-lightbox [images]=\"${1:images}\"></p-lightbox>"
+		],
+		"description": "Basic Lightbox"
+	},
+	"Sidebar": {
+		"prefix": "p-sidebar",
+		"body": [
+			"<p-sidebar [(visible)]=\"${1:yourVisibleVaraible}\" [baseZIndex]=\"${2:baseZIndex}\">",
+			"\tcontent",
+			"</p-sidebar>",
+			"<button type=\"button\" ((click)=\"${1:yourVisibleVaraible}=true\" pButton icon=\"${3:icon}\" label=\"${4:label}\"></button>"
+		],
+		"description": "Basic Sidebar"
+	},
+	"Overlay Panel": {
+		"prefix": "p-overlayPanel",
+		"body": [
+			"<p-overlayPanel #${1:id}>",
+			"\tcontent",
+			"</p-overlayPanel>"
+		],
+		"description": "Basic Overlay Panel"
+	},
+	"Tooltip": {
+		"prefix": "pTooltip",
+		"body": [
+			"<input type=\"text\" pInputText pTooltip=\"${1:tooltipText}\" tooltipPosition=\"${2:position}\" placeholder=\"${3:placeholder}\">"
+		],
+		"description": "Basic Tooltip"
+	},
+	"File Upload": {
+		"prefix": "p-fileUpload",
+		"body": [
+			"<p-fileUpload name=\"${1:name}\" url=\"${2:url}\" (onUpload)=\"${3:uploadFunction}($event)\"",
+			"[multiple]=\"${4:bool}\" accept=\"${5:accept}\" maxFileSize=\"${6:maxSize}\">",
+			"\t<ng-template pTemplate=\"content\">",
+			"\t\tyour template content",
+			"\t</ng-template>",
+			"</p-fileUpload>"
+		],
+		"description": "Advanced File Upload"
+	},
+	"Breadcrumb": {
+		"prefix": "p-breadcrumb",
+		"body": [
+			"<p-breadcrumb [model]=\"${1:model}\" [home]=\"${2:home}\"></p-breadcrumb>"
+		],
+		"description": "Basic Breadcrumb"
+	},
+	"Context Menu": {
+		"prefix": "p-contextMenu",
+		"body": [
+			"<p-contextMenu [global]=\"${1:bool}\" [model]=\"${2:items}\"></p-contextMenu>"
+		],
+		"description": "Basic Context Menu"
+	},
+	"Mega Menu": {
+		"prefix": "p-megaMenu",
+		"body": [
+			"<p-megaMenu [model]=\"${1:items}\"></p-megaMenu>"
+		],
+		"description": "Basic Mega Menu"
+	},
+	"Menu": {
+		"prefix": "p-menu",
+		"body": [
+			"<p-menu [model]=\"${1:items}\"></p-menu>"
+		],
+		"description": "Basic Menu"
+	},
+	"Panel Menu": {
+		"prefix": "p-panelMenu",
+		"body": [
+			"<p-panelMenu [model]=\"${1:items}\" [style]=\"{'width':'${2:width}'}\"></p-panelMenu>"
+		],
+		"description": "Basic Panel Menu"
+	},
+	"Slide Menu": {
+		"prefix": "p-slideMenu",
+		"body": [
+			"<p-slideMenu [model]=\"${1:items}\" [viewportHeight]=\"${2:viewportHeight}\"></p-slideMenu>"
+		],
+		"description": "Basic Slide Menu"
+	},
+	"Steps": {
+		"prefix": "p-steps",
+		"body": [
+			"<p-steps [model]=\"${1:items}\" [(activeIndex)]=\"${2:activeIndex}\" [readonly]=\"${3:bool}\"></p-steps>"
+		],
+		"description": "Basic Steps"
+	},
+	"TabMenu": {
+		"prefix": "p-tabMenu",
+		"body": [
+			"<p-tabMenu [model]=\"${1:items}\" [activeItem]=\"${2:activeItem}\">",
+			"\t<ng-template pTemplate=\"item\" let-${3:yourItemVaraible} let-i=\"index\">",
+			"\t\tyour item template",
+			"\t</ng-template>",
+			"</p-tabMenu>"
+		],
+		"description": "Custom Tab Menu"
+	},
+	"Tiered Menu": {
+		"prefix": "p-tieredMenu",
+		"body": [
+			"<p-tieredMenu [model]=\"${1:items}\"></p-tieredMenu>"
+		],
+		"description": "Basic Tiered Menu"
+	},
+	"Chart": {
+		"prefix": "p-chart",
+		"body": [
+			"<p-chart type=\"${1:type}\" [data]=\"${2:data}\"></p-chart>"
+		],
+		"description": "Basic Chart"
+	},
+	"Messages": {
+		"prefix": "p-messages",
+		"body": [
+			"<p-messages [(value)]=\"${1:yourMessages}\"></p-messages>"
+		],
+		"description": "Basic Messages"
+	},
+	"Toast": {
+		"prefix": "p-toast",
+		"body": [
+			"<p-toast [style]=\"{marginTop: '${1:marginTop}'}\" styleClass=\"${2:styleClass}\" key=\"${3:key}\" position=\"${4:position}\"></p-toast>"
+		],
+		"description": "Basic Toast"
+	},
+	"Galleria": {
+		"prefix": "p-galleria",
+		"body": [
+			"<p-galleria [images]=\"${1:images}\" panelWidth=\"${2:panelWidth}\" panelHeight=\"${3:panelHeight}\" showCaption=\"${4:bool}\"></p-galleria>"
+		],
+		"description": "Basic Galleria"
+	},
+	"BlockUI": {
+		"prefix": "p-blockUI",
+		"body": [
+			"<p-blockUI [blocked]=\"${1:bool}\"></p-blockUI>"
+		],
+		"description": "Basic BlockUI"
+	},
+	"Captcha": {
+		"prefix": "p-captcha",
+		"body": [
+			"<p-captcha siteKey=\"${1:siteKey}\" (onResponse)=\"${2:repsonseFunction}($event)\"></p-captcha>"
+		],
+		"description": "BasicCaptcha"
+	},
+	"Inplace": {
+		"prefix": "p-inplace",
+		"body": [
+			"<p-inplace>",
+			"\t<span pInplaceDisplay>",
+			"\t\t",
+			"\t</span>",
+			"\t<span pInplaceContent>",
+			"\t\t",
+			"\t</span>",
+			"</p-inplace>"
+		],
+		"description": "Basic Inplace"
+	},
+	"Progress Bar": {
+		"prefix": "p-progress",
+		"body": [
+			"<p-progressBar [value]=\"${1:value}\"></p-progressBar>"
+		],
+		"description": "Basic Progress Bar"
+	},
+	"ProgressSpinner": {
+		"prefix": "p-spinner",
+		"body": [
+			"<p-progressSpinner></p-progressSpinner>"
+		],
+		"description": "Basic ProgressSpinner"
+	},
+	"terminal": {
+		"prefix": "p-terminal",
+		"body": [
+			"<p-terminal welcomeMessage=\"${1:welcomeMessage}\" prompt=\"${2:prompt}\"></p-terminal>"
+		],
+		"description": "Basic Terminal"
+	}
+}
