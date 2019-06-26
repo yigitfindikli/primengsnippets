@@ -623,5 +623,63 @@
 			"<p-terminal welcomeMessage=\"${1:welcomeMessage}\" prompt=\"${2:prompt}\"></p-terminal>"
 		],
 		"description": "Basic Terminal"
-	}
+	},
+    	"Grid": {
+		"prefix": "p-grid",
+		"body": [
+		    "<div class=\"p-grid\">",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "</div>"
+		],
+        	"description": "Flex grid with default row direction"
+    	},
+    	"Grid (Reverse direction)": {
+		"prefix": "p-grid-rev",
+		"body": [
+		    "<div class=\"p-grid p-dir-rev\">",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "</div>"
+		],
+        	"description": "Flex grid with row reverse direction"
+    	},
+    	"Grid (Column direction)": {
+		"prefix": "p-grid-col",
+		"body": [
+		    "<div class=\"p-grid p-dir-col\">",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "</div>"
+		],
+        	"description": "Flex grid with column direction"
+    	},
+    	"Grid (Column reverse direction)": {
+		"prefix": "p-grid-col-rev",
+		"body": [
+		    "<div class=\"p-grid p-dir-col-rev\">",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "\t<div class=\"p-col\"></div>",
+		    "</div>"
+		],
+        	"description": "Flex grid with row reverse direction"
+    	},
+    	"Column": {
+		"prefix": "p-col",
+		"body": [
+		    "\t<div class=\"p-col\"></div>"
+		],
+		"description": "Flex column"
+    	},
+    	"Fixed column": {
+		"prefix": "p-col-fixed",
+		"body": [
+		    "\t<div class=\"p-col-fixed\"></div>"
+		],
+		"description": "Flex column with fixed (auto) width"
+    	}
 }
